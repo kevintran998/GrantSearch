@@ -9,7 +9,6 @@
 * the info into objects. The grant objects are held within an array list which is
 * then filtered based on the user's initial inputs. The app displays the filtered list onto the
 * screen when finished. The user is given the option to scroll through the list and click on each
-* grant for more information.s
 * grant for more information.
  */
 package com.kkt160130.grantsearch;
