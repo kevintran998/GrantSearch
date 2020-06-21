@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Grant Search</string>
+    <string-array name="FilterItemStringList">
+        <item>Agriculture</item>
+        <item>Arts</item>
+        <item>Business</item>
+        <item>Community</item>
+        <item>Disaster Protection</item>
+        <item>Education</item>
+        <item>Employment</item>
+        <item>Environment</item>
+        <item>Nutrition</item>
+        <item>Health</item>
+        <item>Humanities</item>
+        <item>Social Services</item>
+        <item>Law</item>
+        <item>Natural Resources</item>
+        <item>CategoryOther</item>
+        <item>Technology</item>
+        <item>yes501c3</item>
+        <item>no501c3</item>
+        <item>PriceRangeLess1000</item>
+        <item>PriceRange1000To10000</item>
+        <item>PriceRange10000To25000</item>
+        <item>PriceRange25000To50000</item>
+        <item>PriceRangeMore50000</item>
+        <item>Asian</item>
+        <item>AfricanAmerican</item>
+        <item>Caucasian</item>
+        <item>Hispanic</item>
+        <item>Middle Eastern</item>
+        <item>Native American</item>
+        <item>RaceOther</item>
+        <item>Christian</item>
+        <item>Catholic</item>
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Buddhist</item>
+        <item>Sikh</item>
+        <item>Jewish</item>
+        <item>ReligionOther</item>
+    </string-array>
+</resources>

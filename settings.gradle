@@ -1,0 +1,2 @@
+rootProject.name='Grant Search'
+include ':app'
