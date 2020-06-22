@@ -1,6 +1,6 @@
 /* GrantRecyclerAdapter.java
  *
- * This file formats the list of grants by using an adapter.
+ * This file formats the recycler view for the list of grants by using an adapter.
  */
 package com.kkt160130.grantsearch;
 
