@@ -1,15 +1,30 @@
-/* Grant Search
-* Written By: Kevin Tran
-*
-* Grant Search utilizes grants.gov RSS feed data to provide a list of grants to the user
-* based on the user's search criteria. The user is given a set of filtering options.
-* Once the user inputs their desired filters, the app will connect to the internet and gather
-* information from the grants.gov RSS feed. Then, the application will pull out information on
-* each grant and place the info into objects. The grant objects are held within an array list
-* which is then filtered based on the user's initial inputs. The app displays the filtered list
-* onto the screen when finished. The user is given the option to scroll through the list and
-* click on each grant for more information.
- */
+// Grant Search
+// Written By: Kevin Tran
+//
+// Included Files:
+// MainActivity.java - main screen with filter options
+// GrantSearchResultsActivity.java - scrollable list of grants
+// GrantActivity.java - detailed information on each grant
+// WelcomeScreenActivity.java - logo/load up screen
+// TapToStartActivity.java - screen that displays "Tap to Start"
+// ConvertRSSFeedData.java - retrieves RSS Feed data from grants.gov
+// ProcessRSSFeedData.java - places RSS Feed data into objects
+// Filter.java - filters array list of grant objects
+// FilterItem.java - FilterItem class
+// Grant.java - Grant class
+// GrantRecyclerAdapter.java - recycler view adapter to display grant list
+// DueDateFragment.java - Calendar fragment for due date filter
+//
+// About:
+// Grant Search utilizes grants.gov RSS feed data to provide a list of grants to the user
+// based on the user's search criteria. The user is given a set of filtering options.
+// Once the user inputs their desired filters, the app will connect to the internet and gather
+// information from the grants.gov RSS feed. Then, the application will pull out information on
+// each grant and place the info into objects. The grant objects are held within an array list
+// which is then filtered based on the user's initial inputs. The app displays the filtered list
+// onto the screen when finished. The user is given the option to scroll through the list and
+// click on each grant for more information.
+//
 package com.kkt160130.grantsearch;
 
 import androidx.annotation.Nullable;
